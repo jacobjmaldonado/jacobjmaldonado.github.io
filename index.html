@@ -4,188 +4,143 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta name="theme-color" content="#0a0a0a">
 
-  <title>Home</title>
-  <meta content="Jacob Maldonado's personal site" name="description">
-  <meta content="Jacob Maldonado, photography, gallery" name="keywords">
+  <title>Jacob Maldonado — Photography</title>
+  <meta content="Photography by Jacob Maldonado. Landscapes, mountains, and the wild." name="description">
+  <meta content="Jacob Maldonado, photography, gallery, landscape" name="keywords">
 
   <link href="staticfiles/img/favicon.png" rel="icon">
   <link href="staticfiles/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Cardo:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 
-  <link href="staticfiles/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="staticfiles/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="staticfiles/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="staticfiles/vendor/aos/aos.css" rel="stylesheet">
-
   <link href="staticfiles/css/main.css" rel="stylesheet">
 </head>
 
 <body>
-  <header id="header" class="header d-flex align-items-center fixed-top">
-    <div class="container-fluid d-flex align-items-center justify-content-center">
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a href="/" class="active">Home</a></li>
-        </ul>
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a href="/" class="brand">
+        <span class="brand__mark">JM</span>
+        <span class="brand__name">Jacob Maldonado</span>
+      </a>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="#gallery">Work</a>
+        <a href="https://www.linkedin.com/in/jacob-maldonado-37ba41129" target="_blank" rel="noopener">LinkedIn</a>
       </nav>
-      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
-      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
     </div>
   </header>
 
-  <section id="hero" class="hero d-flex flex-column justify-content-center align-items-center" data-aos="fade" data-aos-delay="1500">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-lg-6 text-center">
-          <h2>My Favorites</h2>
-        </div>
-      </div>
-    </div>
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="text-center">
-          <h3>
-            <a class="linkedin" href="https://www.linkedin.com/in/jacob-maldonado-37ba41129">LinkedIn</a>
-          </h3>
-        </div>
-      </div>
+  <section class="intro" aria-labelledby="intro-heading">
+    <p class="intro__eyebrow">Selected Work — 2024 / 25</p>
+    <h1 id="intro-heading" class="intro__title">
+      Field notes from <em>quiet</em> places.
+    </h1>
+    <p class="intro__lede">
+      A personal archive of light, elevation, and the long walk — from the Sierra backcountry
+      to the slickrock of the Southwest.
+    </p>
+    <div class="intro__meta">
+      <span>14 Photographs</span>
+      <span aria-hidden="true">·</span>
+      <span>California · Utah · Arizona</span>
     </div>
   </section>
 
-  <main id="main" data-aos="fade" data-aos-delay="1500">
-    <section id="gallery" class="gallery">
-      <div class="container-fluid">
-        <div class="row gy-4 justify-content-center">
-          <div class="col-xl-3 col-lg-4 col-md-6">
-            <div class="gallery-item h-100">
-              <img src="staticfiles/img/gallery/home/gallery-2.jpg" class="img-fluid" alt="">
-              <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="staticfiles/img/gallery/home/gallery-2.jpg" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-3 col-lg-4 col-md-6">
-            <div class="gallery-item h-100">
-              <img src="staticfiles/img/gallery/home/gallery-3.jpg" class="img-fluid" alt="">
-              <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="staticfiles/img/gallery/home/gallery-3.jpg" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-3 col-lg-4 col-md-6">
-            <div class="gallery-item h-100">
-              <img src="staticfiles/img/gallery/home/gallery-4.jpg" class="img-fluid" alt="">
-              <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="staticfiles/img/gallery/home/gallery-4.jpg" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-3 col-lg-4 col-md-6">
-            <div class="gallery-item h-100">
-              <img src="staticfiles/img/gallery/home/gallery-5.jpg" class="img-fluid" alt="">
-              <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="staticfiles/img/gallery/home/gallery-5.jpg" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-3 col-lg-4 col-md-6">
-            <div class="gallery-item h-100">
-              <img src="staticfiles/img/gallery/home/gallery-6.jpg" class="img-fluid" alt="">
-              <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="staticfiles/img/gallery/home/gallery-6.jpg" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-3 col-lg-4 col-md-6">
-            <div class="gallery-item h-100">
-              <img src="staticfiles/img/gallery/home/gallery-7.jpg" class="img-fluid" alt="">
-              <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="staticfiles/img/gallery/home/gallery-7.jpg" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-3 col-lg-4 col-md-6">
-            <div class="gallery-item h-100">
-              <img src="staticfiles/img/gallery/home/gallery-8.jpg" class="img-fluid" alt="">
-              <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="staticfiles/img/gallery/home/gallery-8.jpg" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-3 col-lg-4 col-md-6">
-            <div class="gallery-item h-100">
-              <img src="staticfiles/img/gallery/home/gallery-10.jpg" class="img-fluid" alt="">
-              <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="staticfiles/img/gallery/home/gallery-10.jpg" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-3 col-lg-4 col-md-6">
-            <div class="gallery-item h-100">
-              <img src="staticfiles/img/gallery/home/gallery-11.jpg" class="img-fluid" alt="">
-              <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="staticfiles/img/gallery/home/gallery-11.jpg" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-3 col-lg-4 col-md-6">
-            <div class="gallery-item h-100">
-              <img src="staticfiles/img/gallery/home/gallery-12.jpg" class="img-fluid" alt="">
-              <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="staticfiles/img/gallery/home/gallery-12.jpg" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-3 col-lg-4 col-md-6">
-            <div class="gallery-item h-100">
-              <img src="staticfiles/img/gallery/home/gallery-13.jpg" class="img-fluid" alt="">
-              <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="staticfiles/img/gallery/home/gallery-13.jpg" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-3 col-lg-4 col-md-6">
-            <div class="gallery-item h-100">
-              <img src="staticfiles/img/gallery/home/gallery-14.jpg" class="img-fluid" alt="">
-              <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="staticfiles/img/gallery/home/gallery-14.jpg" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-3 col-lg-4 col-md-6">
-            <div class="gallery-item h-100">
-              <img src="staticfiles/img/gallery/home/gallery-15.jpg" class="img-fluid" alt="">
-              <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="staticfiles/img/gallery/home/gallery-15.jpg" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-3 col-lg-4 col-md-6">
-            <div class="gallery-item h-100">
-              <img src="staticfiles/img/gallery/home/gallery-16.jpg" class="img-fluid" alt="">
-              <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="staticfiles/img/gallery/home/gallery-16.jpg" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+  <main id="gallery" class="gallery" aria-label="Photo gallery">
+    <figure class="gallery__item">
+      <a href="staticfiles/img/gallery/home/gallery-2.jpg" class="glightbox" data-gallery="home" data-title="Zion — Angels Landing">
+        <img src="staticfiles/img/gallery/home/gallery-2.jpg" alt="View from Angels Landing trail in Zion National Park" loading="lazy" decoding="async">
+      </a>
+    </figure>
+    <figure class="gallery__item">
+      <a href="staticfiles/img/gallery/home/gallery-3.jpg" class="glightbox" data-gallery="home" data-title="Sierra High Country">
+        <img src="staticfiles/img/gallery/home/gallery-3.jpg" alt="Snow-capped peaks in the Sierra Nevada" loading="lazy" decoding="async">
+      </a>
+    </figure>
+    <figure class="gallery__item">
+      <a href="staticfiles/img/gallery/home/gallery-4.jpg" class="glightbox" data-gallery="home" data-title="Redwoods, Looking Up">
+        <img src="staticfiles/img/gallery/home/gallery-4.jpg" alt="Looking up into a redwood canopy" loading="lazy" decoding="async">
+      </a>
+    </figure>
+    <figure class="gallery__item">
+      <a href="staticfiles/img/gallery/home/gallery-5.jpg" class="glightbox" data-gallery="home" data-title="Alpine Meadow">
+        <img src="staticfiles/img/gallery/home/gallery-5.jpg" alt="Alpine meadow with granite peaks" loading="lazy" decoding="async">
+      </a>
+    </figure>
+    <figure class="gallery__item">
+      <a href="staticfiles/img/gallery/home/gallery-6.jpg" class="glightbox" data-gallery="home" data-title="Iceberg Lake">
+        <img src="staticfiles/img/gallery/home/gallery-6.jpg" alt="Iceberg Lake at the foot of the Minarets" loading="lazy" decoding="async">
+      </a>
+    </figure>
+    <figure class="gallery__item">
+      <a href="staticfiles/img/gallery/home/gallery-7.jpg" class="glightbox" data-gallery="home" data-title="Grand Canyon">
+        <img src="staticfiles/img/gallery/home/gallery-7.jpg" alt="The Grand Canyon south rim" loading="lazy" decoding="async">
+      </a>
+    </figure>
+    <figure class="gallery__item">
+      <a href="staticfiles/img/gallery/home/gallery-9.jpg" class="glightbox" data-gallery="home" data-title="Burney Falls">
+        <img src="staticfiles/img/gallery/home/gallery-9.jpg" alt="Burney Falls in Northern California" loading="lazy" decoding="async">
+      </a>
+    </figure>
+    <figure class="gallery__item">
+      <a href="staticfiles/img/gallery/home/gallery-10.jpg" class="glightbox" data-gallery="home" data-title="First Light">
+        <img src="staticfiles/img/gallery/home/gallery-10.jpg" alt="Sunrise over snowy peaks" loading="lazy" decoding="async">
+      </a>
+    </figure>
+    <figure class="gallery__item">
+      <a href="staticfiles/img/gallery/home/gallery-11.jpg" class="glightbox" data-gallery="home" data-title="Coastal Pines">
+        <img src="staticfiles/img/gallery/home/gallery-11.jpg" alt="Pines overlooking a coastal bay" loading="lazy" decoding="async">
+      </a>
+    </figure>
+    <figure class="gallery__item">
+      <a href="staticfiles/img/gallery/home/gallery-12.jpg" class="glightbox" data-gallery="home" data-title="Glacial Basin">
+        <img src="staticfiles/img/gallery/home/gallery-12.jpg" alt="Hiker in a glacial basin" loading="lazy" decoding="async">
+      </a>
+    </figure>
+    <figure class="gallery__item">
+      <a href="staticfiles/img/gallery/home/gallery-13.jpg" class="glightbox" data-gallery="home" data-title="Untitled I">
+        <img src="staticfiles/img/gallery/home/gallery-13.jpg" alt="Landscape photograph" loading="lazy" decoding="async">
+      </a>
+    </figure>
+    <figure class="gallery__item">
+      <a href="staticfiles/img/gallery/home/gallery-14.jpg" class="glightbox" data-gallery="home" data-title="Untitled II">
+        <img src="staticfiles/img/gallery/home/gallery-14.jpg" alt="Landscape photograph" loading="lazy" decoding="async">
+      </a>
+    </figure>
+    <figure class="gallery__item">
+      <a href="staticfiles/img/gallery/home/gallery-15.jpg" class="glightbox" data-gallery="home" data-title="Untitled III">
+        <img src="staticfiles/img/gallery/home/gallery-15.jpg" alt="Landscape photograph" loading="lazy" decoding="async">
+      </a>
+    </figure>
+    <figure class="gallery__item">
+      <a href="staticfiles/img/gallery/home/gallery-16.jpg" class="glightbox" data-gallery="home" data-title="Untitled IV">
+        <img src="staticfiles/img/gallery/home/gallery-16.jpg" alt="Landscape photograph" loading="lazy" decoding="async">
+      </a>
+    </figure>
   </main>
 
-  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <footer class="site-footer">
+    <div class="site-footer__inner">
+      <p class="site-footer__name">Jacob Maldonado</p>
+      <p class="site-footer__meta">
+        Shot on iPhone &amp; Sony Alpha · <a href="https://www.linkedin.com/in/jacob-maldonado-37ba41129" target="_blank" rel="noopener">LinkedIn</a>
+      </p>
+      <p class="site-footer__copy">&copy; <span id="year"></span> — All photographs are the property of the photographer.</p>
+    </div>
+  </footer>
 
-  <div id="preloader">
-    <div class="line"></div>
-  </div>
+  <button type="button" class="scroll-top" aria-label="Scroll to top">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <path d="M12 19V5M5 12l7-7 7 7"/>
+    </svg>
+  </button>
 
-  <script src="staticfiles/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="staticfiles/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="staticfiles/vendor/aos/aos.js"></script>
   <script src="staticfiles/js/main.js"></script>
 </body>
 
